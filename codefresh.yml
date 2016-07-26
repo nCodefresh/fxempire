@@ -5,9 +5,7 @@ steps:
    image: node:latest
    fail-fast: true
    commands:
-     #- npm prune
      - npm install --unsafe-perm
-
      #- npm install bower
      #- npm gulp install
 
