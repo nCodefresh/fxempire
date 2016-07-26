@@ -5,8 +5,8 @@ steps:
    image: node:latest
    fail-fast: true
    commands:
-     - npm install --unsafe-perm
-     #- npm install bower
+     #- npm install --unsafe-perm
+     - npm install bower
      #- npm gulp install
 
  unit tests:
